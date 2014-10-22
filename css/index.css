@@ -409,8 +409,8 @@ a:link {
 
 
 #process {
+  width: 100%;
   clear:both;
-  display: block;
   margin: 30px;
 }
 

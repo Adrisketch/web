@@ -119,6 +119,8 @@ vertical-align: bottom;
 figure.effect-zoe figcaption {
   top: auto;
   bottom: 0;
+  font-family: Orator,helvetica,Arial, Century;
+  font-size: 0.95em;
   padding-top: 1em;
   height: 5.55em;
   background: #54C1B5;
@@ -147,7 +149,7 @@ figure.effect-zoe p {
   padding: 2em;
   color: #fff;
   text-transform: none;
-  font-size: 90%;
+  font-size: 70%;
   opacity: 0;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
@@ -254,7 +256,7 @@ figure.effect-zoe:hover figcaption > span:nth-child(2) {
 }
 
 body {  
-  font-family: Orator, Arial, Century;
+  font-family: Orator, Helvetica, Arial, Century;
 }
 
 #line {
@@ -302,7 +304,7 @@ padding-left: 70px;
   float: right;
   color: black;
   text-align: right;
-  font-family: Arial, Century;
+  font-family: Helvetica, Arial, Century;
   font-weight: lighter;
   color: #B8BDBC;
   width: 82%;
@@ -326,7 +328,7 @@ padding-left: 70px;
 
 h3 {
   height: 40px;
-  font-family: Orator, Arial, Century;
+  font-family: Orator, Helvetica, Arial, Century;
   font-size: 24px;
   text-align: right;
   margin: auto 0;
@@ -346,7 +348,7 @@ a:link {
 
 #welcome h1 {
   height: 50px;
-  font-family: Orator, Arial, Century;
+  font-family: Orator, Helvetica, Arial, Century;
   font-size: 34px;
   position: relative;
   text-align: center;
@@ -357,7 +359,7 @@ a:link {
 
 
 #welcome h2 a {
-  font-family: Arial, Century;
+  font-family: Helvetica, Century;
   font-weight: lighter;
   position: relative;
   text-align: center;
@@ -380,7 +382,7 @@ a:link {
 
 #textabout {
   float: left;
-  font-family: Arial, Century;
+  font-family: Helvetica, Arial, Century;
   margin-bottom: 30px;
   font-weight: lighter;
   color: #B8BDBC;

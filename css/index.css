@@ -1,0 +1,476 @@
+a:link{
+color: #54C1B5;
+text-decoration: none;
+}
+a:visited{
+color: #54C1B5;
+text-decoration: none;
+}
+a:active{
+color: #54C1B5;
+text-decoration: underline;
+}
+
+
+
+
+#container {
+    width: 1200px;
+    margin: 0px auto;
+    background: none repeat scroll 0% 0% #FFF;
+    animation: 1.25s ease 0s normal none 1 c-fade-in;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #2E2E33;
+
+}
+
+.grid {
+  overflow: hidden;
+  margin: 0;
+  padding: 1em 0 0 0;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+}
+
+#contacticons a {
+position:relative;
+margin: 0em;
+vertical-align: bottom;
+}
+
+/* Common style */
+.grid figure {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0.135em;
+  width: 32.333%;
+  height: 280px;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  width:100%; 
+}
+
+.grid figure figcaption {
+  color: #54C1B5;
+  text-transform: uppercase;
+  font-size: 1.10em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure a {
+  z-index: 1000;
+  text-indent: 100%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.grid figure h2 {
+  word-spacing: -0.15em;
+  
+  font-weight: 200;
+}
+.grid figure h2,
+.grid figure p {
+  margin: 0;
+}
+
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+
+/*---------------*/
+/***** Zoe *****/
+/*---------------*/
+
+figure.effect-zoe figcaption {
+  top: auto;
+  bottom: 0;
+  padding-top: 1em;
+  height: 5.55em;
+  background: #54C1B5;
+  color: #fff;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+figure.effect-zoe h2 {
+  text-align: left;
+  padding-left: 0.5em;
+  padding-right: 2em;
+  display: block;
+}
+
+figure.effect-zoe figcaption > span {
+  float: left;
+  padding-left: 0.5em;
+}
+
+figure.effect-zoe p {
+  position: absolute;
+  bottom: 8em;
+  padding: 2em;
+  color: #fff;
+  text-transform: none;
+  font-size: 90%;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+figure.effect-zoe h2 {
+  color: #fff;
+}
+
+
+figure.effect-zoe figcaption > span {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,200%,0);
+  transform: translate3d(0,200%,0);
+}
+
+figure.effect-zoe figcaption > span::before {
+  display: block;
+  padding: 8px 10px;
+  speak: none;
+}
+
+.icon-eye::before {
+  content: '\e000';
+}
+
+.icon-paper-clip::before {
+  content: '\e001';
+}
+
+
+figure.effect-zoe h2 {
+  display: block;
+}
+
+figure.effect-zoe:hover p {
+  opacity: 1;
+}
+
+figure.effect-zoe:hover figcaption,
+figure.effect-zoe:hover h2,
+figure.effect-zoe:hover figcaption > span {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+figure.effect-zoe:hover h2 {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+figure.effect-zoe:hover figcaption > span:nth-child(4) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+figure.effect-zoe:hover figcaption > span:nth-child(3) {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+figure.effect-zoe:hover figcaption > span:nth-child(2) {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+@media screen and (max-width: 69.5em) {
+
+  .grid figure {
+    width: 30%;
+    margin-left: 0px;
+    display:block;
+  } 
+
+  .grid figure figcaption {
+    font-size: 90%;
+  }
+}
+
+#line {
+  width: 30%
+}
+
+#view {
+  margin-top: 0px;
+}
+
+#view h3 a:hover {
+  color: #54C1B5;
+  border-bottom: 3px solid #54C1B5;
+  padding-bottom: 7px;
+}
+
+#download {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+#download h3 a:hover {
+  color: #54C1B5;
+  border-bottom: 3px solid #54C1B5;
+  padding-bottom: 7px;
+}
+
+body {  
+  font-family: Orator, Arial, Century;
+}
+
+#line {
+  width: 100%;
+  position: center;
+}
+
+#skills {
+  margin-top: 10px;
+  padding-top: 30px;
+}
+
+#skills td {
+width: 100%;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 70px;
+padding-left: 70px;
+}
+
+#skills td:first-child {
+  padding-right:70px;
+  padding-left: 0px;
+}
+
+#skills td:last-child {
+  padding-left:70px;
+  padding-right: 0px;
+}
+
+#tools {
+  width: 100%;
+  clear: both;
+}
+
+#tools td {
+  display: inline-block;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+#quote a{
+  float: right;
+  color: black;
+  text-align: right;
+  font-family: Arial, Century;
+  font-weight: lighter;
+  color: #B8BDBC;
+  width: 82%;
+}
+
+#view {
+  margin-top: 60px;
+}
+
+#header {
+  font-size: 20px;
+  position: relative;
+  margin: 20px auto 0;
+  padding-bottom: 10px;
+}
+
+#contacticons img:hover {
+  padding-left: 30px;
+  height: 70px;
+}
+
+h3 {
+  height: 40px;
+  font-family: Orator, Arial, Century;
+  font-size: 24px;
+  text-align: right;
+  margin: auto 0;
+  color: #54C1B5;
+}
+
+a:link {
+  color: #54C1B5;
+}
+
+#welcome {
+  background-image: url('../images/background.png');
+  width: 100%; 
+  height: 195px;
+  margin-bottom: 30px;
+}
+
+#welcome h1 {
+  height: 50px;
+  font-family: Orator, Arial, Century;
+  font-size: 34px;
+  position: relative;
+  text-align: center;
+  margin: 60px auto 0;
+  color: #fff;
+  padding: 30px;
+}
+
+
+#welcome h2 a {
+  font-family: Arial, Century;
+  font-weight: lighter;
+  position: relative;
+  text-align: center;
+  margin: 10px auto 0;
+  color: #C3E9E5;
+  display: block;
+  height: 20px;
+  font-size: 20px;
+  margin: 20px auto 0;
+  text-align: center;
+  padding: 12px;
+
+}
+
+#aboutme {
+  width: 100%;
+  margin-top: 5em;
+  margin-bottom: 3em
+}
+
+#textabout {
+  float: left;
+  font-family: Arial, Century;
+  margin-bottom: 30px;
+  font-weight: lighter;
+  color: #B8BDBC;
+  width: 82%;
+
+}
+
+#circle {
+  float: left;
+  width: 170px;
+  margin-right: 20px;
+}
+
+
+#header ul {
+  margin: 0 auto;
+  width: 1200px;
+  list-style: none;
+}
+
+#header ul li {
+  float: left;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+
+#process {
+  width: 100%;
+  clear:both;
+  margin: 30px;
+}
+
+#header ul li a {
+  color: #6F7977;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+ 
+#contact {
+  background-color: #d2d2d2;
+  list-style: none;
+  width: 100%;
+  height: 100px;
+  float: left;
+}
+
+#header ul li a:hover {
+  color: #54C1B5;
+  border-bottom: 3px solid #54C1B5;
+  padding-bottom: 7px;
+}
+
+#header ul li a:active {
+  color: #54C1B5;
+}
+
+.logo {
+  float:center;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    margin-left: 10px;
+  }
+
+  #header li{
+    display:none;
+  }
+
+  #skills td {
+  display:block;
+   }
+
+  #welcome td {
+    display:block;
+  }
+  #tools td{
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 624px) {
+
+  .logo {
+    display:block;
+  }
+}
+  

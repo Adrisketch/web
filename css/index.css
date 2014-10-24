@@ -11,7 +11,10 @@ color: #54C1B5;
 text-decoration: underline;
 }
 
-
+@font-face {
+    font-family:'Inconsolata-Regular';
+    src: url('../fonts/Inconsolata-Regular.ttf') format("truetype");
+}
 
 
 #container {
@@ -119,7 +122,7 @@ vertical-align: bottom;
 figure.effect-zoe figcaption {
   top: auto;
   bottom: 0;
-  font-family: Orator,helvetica,Arial, Century;
+  font-family: Inconsolata-Regular,helvetica,Arial, Century;
   font-size: 0.95em;
   padding-top: 1em;
   height: 5.55em;
@@ -256,7 +259,7 @@ figure.effect-zoe:hover figcaption > span:nth-child(2) {
 }
 
 body {  
-  font-family: Orator, Helvetica, Arial, Century;
+  font-family: Inconsolata-Regular, Helvetica, Arial, Century;
 }
 
 #line {
@@ -328,7 +331,7 @@ padding-left: 70px;
 
 h3 {
   height: 40px;
-  font-family: Orator, Helvetica, Arial, Century;
+  font-family: Inconsolata-Regular, Helvetica, Arial, Century;
   font-size: 24px;
   text-align: right;
   margin: auto 0;
@@ -348,7 +351,7 @@ a:link {
 
 #welcome h1 {
   height: 50px;
-  font-family: Orator, Helvetica, Arial, Century;
+  font-family: Inconsolata-Regular, Helvetica, Arial, Century;
   font-size: 34px;
   position: relative;
   text-align: center;

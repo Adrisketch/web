@@ -38,6 +38,7 @@ text-decoration: underline;
   height: 251px;
   text-align: justify;
   min-width: 600px;
+  margin: 50px;
 }
 #skillsContainer div {
   
@@ -47,43 +48,6 @@ text-decoration: underline;
   content: '';
   width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
   display: inline-block;
-}
-
-
-
-
-#Group1 {
-  background: url("../images/Group1.png"); background-repeat: no-repeat;
-}
-
-#Group1:hover {
-  background: url("../images/Group1b.png"); background-repeat: no-repeat;
-}
-
-#Group2 {
-  background: url("../images/Group2.png"); background-repeat: no-repeat;
-}
-
-#Group2:hover {
-  background: url("../images/Group2b.png"); background-repeat: no-repeat;
-
-}
-
-#Group3 {
-  background: url("../images/Group3.png"); background-repeat: no-repeat;
-}
-
-#Group3:hover {
-  background: url("../images/Group3b.png"); background-repeat: no-repeat;
-
-}
-
-#Group4 {
-  background: url("../images/Group4.png"); background-repeat: no-repeat;
-}
-
-#Group4:hover {
-  background: url("../images/Group4b.png"); background-repeat: no-repeat;
 }
 
 
@@ -323,30 +287,6 @@ body {
   position: center;
 }
 
-#skills {
-  border: 1px solid black;
-  width:100%;
-  margin-top: 10px;
-  padding-top: 30px;
-}
-
-#skills td {
- border: 1px solid black;
-  width:25%;
-  height: 251px;
-  background-position: center; 
-}
-
-#skills td:first-child {
-  background-position: left; 
-
-
-}
-
-#skills td:last-child {
-  background-position: right; 
-}
-
 #tools {
   width: 100%;
   clear: both;
@@ -545,6 +485,14 @@ a:link {
 
   .logo {
     display:block;
+  }
+
+  #skillsContainer div {
+    display:none;
+  }
+  #skillsContainer {
+    background: url("../images/skillsmin.png"); background-repeat: no-repeat;
+    height: 315px;
   }
 }
   

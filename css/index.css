@@ -481,11 +481,36 @@ a:link {
     padding-left: 10px;
   }
 }
-@media screen and (max-width: 624px) {
+@media screen and (max-width: 524px) {
+
+
+#Welcome h2 a{
+  text-align: left;
+  margin-left: 35px;
+  font-size: 18px;
+}
+
+#Welcome h1{
+  font-size: 26px;
+}
+
+#Welcome {
+  width: 30%; 
+  height: 195px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
 
   .logo {
-    display:block;
+    float:left;
+    margin-left: 250px;
   }
+
+#line a{
+  float:left;
+  margin-left: 100px;
+}
 
   #skillsContainer div {
     display:none;

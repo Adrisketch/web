@@ -31,11 +31,29 @@ text-decoration: underline;
 
 }
 
+/***
+ * skills
+**/
+#skillsContainer {
+  height: 251px;
+  text-align: justify;
+  min-width: 600px;
+}
+#skillsContainer div {
+  
+  display: inline-block;
+}
+#skillsContainer:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
+
+
+
 
 #Group1 {
   background: url("../images/Group1.png"); background-repeat: no-repeat;
-  width: 194px;
-  height: 251px;
 }
 
 #Group1:hover {
@@ -44,28 +62,24 @@ text-decoration: underline;
 
 #Group2 {
   background: url("../images/Group2.png"); background-repeat: no-repeat;
-  width: 194px;
-  height: 251px;
 }
 
 #Group2:hover {
   background: url("../images/Group2b.png"); background-repeat: no-repeat;
+
 }
 
 #Group3 {
   background: url("../images/Group3.png"); background-repeat: no-repeat;
-  width: 194px;
-  height: 251px;
 }
 
 #Group3:hover {
   background: url("../images/Group3b.png"); background-repeat: no-repeat;
+
 }
 
 #Group4 {
   background: url("../images/Group4.png"); background-repeat: no-repeat;
-  width: 194px;
-  height: 251px;
 }
 
 #Group4:hover {
@@ -310,26 +324,27 @@ body {
 }
 
 #skills {
+  border: 1px solid black;
+  width:100%;
   margin-top: 10px;
   padding-top: 30px;
 }
 
 #skills td {
-width: 100%;
-padding-top: 20px;
-padding-bottom: 20px;
-padding-right: 70px;
-padding-left: 70px;
+ border: 1px solid black;
+  width:25%;
+  height: 251px;
+  background-position: center; 
 }
 
 #skills td:first-child {
-  padding-right:70px;
-  padding-left: 0px;
+  background-position: left; 
+
+
 }
 
 #skills td:last-child {
-  padding-left:70px;
-  padding-right: 0px;
+  background-position: right; 
 }
 
 #tools {

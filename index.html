@@ -29,6 +29,13 @@
 	</h2>
 </div>
 
+<div id="skillsContainer">
+  <div><img class="skill-image" data-other-src="images/Group1b.png" src="images/Group1.png"/></div>
+  <div><img class="skill-image" data-other-src="images/Group2b.png" src="images/Group2.png"/></div>
+  <div><img class="skill-image" data-other-src="images/Group3b.png" src="images/Group3.png"/></div>
+  <div><img class="skill-image" data-other-src="images/Group4b.png" src="images/Group4.png"/></div>
+</div>
+<!--
 <table id="skills">
 	<tbody>
 		<tr>
@@ -39,7 +46,7 @@
 		</tr>
 	</tbody>
 </table>
-
+-->
 <div align="center" id="line">
 	<a><img src="images/Line2.png"></a>
 </div>
@@ -188,6 +195,10 @@
 </div>
   <script>
                 $('a.gallery').colorbox({ opacity:0.5 , rel:'group1' });
+
+                $('img.skill-image').bind('mouseenter mouseleave', function() {
+    				$(this).attr({src: $(this).attr('data-other-src'), 'data-other-src': $(this).attr('src') });
+				});
         </script>
 </div>
 </div>

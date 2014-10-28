@@ -38,7 +38,8 @@ text-decoration: underline;
   height: 251px;
   text-align: justify;
   min-width: 600px;
-  margin: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 #skillsContainer div {
   
@@ -64,6 +65,13 @@ text-decoration: underline;
 position:relative;
 margin: 0em;
 vertical-align: bottom;
+}
+
+#made {
+  float: left;
+  margin: 35px;
+  font-size: 18px;
+  color: #fff;
 }
 
 /* Common style */
@@ -483,10 +491,8 @@ a:link {
 }
 @media screen and (max-width: 524px) {
 
-
 #Welcome h2 a{
-  text-align: left;
-  margin-left: 35px;
+  text-align: center;
   font-size: 18px;
 }
 
@@ -498,19 +504,25 @@ a:link {
   width: 30%; 
   height: 195px;
   margin-bottom: 30px;
-  margin-top: 50px;
+  margin-top: 100px;
+}
+
+#header {
+  margin-top: 10px;
 }
 
 
   .logo {
     float:left;
-    margin-left: 250px;
+    margin-left: 140px;
   }
 
 #line a{
   float:left;
   margin-left: 100px;
+  width: 10%;
 }
+
 
   #skillsContainer div {
     display:none;
@@ -518,6 +530,7 @@ a:link {
   #skillsContainer {
     background: url("../images/skillsmin.png"); background-repeat: no-repeat;
     height: 315px;
+    width: 315px;
   }
 }
   

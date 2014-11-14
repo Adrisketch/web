@@ -452,9 +452,9 @@ a:link {
   float:center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
   #container {
-  width: 1024px;
+  width: 100%;
   }
 
 #circle {

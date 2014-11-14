@@ -490,6 +490,7 @@ a:link {
 
   .grid figure {
     width: 100%;
+    height: 70%;
     margin-left: 0px;
     display:block;
   } 

@@ -509,6 +509,13 @@ a:link {
 
 .logo {
   float:center;
+  height: 500px;
+  width: 500px;
+}
+
+.logo img{
+  height: 100px;
+  width: 100px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -586,15 +593,15 @@ a:link {
     margin-bottom: 10px;
   }
   #skillsContainer {
-    background: url("../images/Skillscollapsed.png"); background-repeat: no-repeat;
+    background: url("../images/skillscollapsed.png"); background-repeat: no-repeat;
     width: 100%;
     height: 100%;
   }
 
-  .logo {
-    display:none;
+  .logo img {
+    height: 300px;
+    width: 300px;
   }
-
 
 }
 

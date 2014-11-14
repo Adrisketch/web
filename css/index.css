@@ -544,19 +544,22 @@ a:link {
 }
 
 #process {
-    float:left;
+  margin-top: 250px;
   }
 
-  #textabout {
+#view h3 a{
+  font-size: 30px;
+}
+
+#textabout {
     text-align: justify;
+    font-size: 25px;
     width: 80%;
     display: block;
   }
 
-#download {
-  float:left;
-  margin-top: 200px;
-  display: none;
+#download h3 a{
+  font-size: 30px;
 }
   #header li{
     display:none;

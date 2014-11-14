@@ -465,7 +465,7 @@ a:link {
   float:center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 69.5em) {
   .logo {
     margin-left: 10px;
   }
@@ -488,8 +488,6 @@ a:link {
     padding-right: 10px;
     padding-left: 10px;
   }
-}
-@media screen and (max-width: 750px) {
 
 #Welcome h2 a{
   text-align: center;
@@ -511,6 +509,22 @@ a:link {
   margin-top: 10px;
 }
 
+#quote {
+  text-align: left;
+}
+
+#download {
+  float:left;
+  margin-top: 200px;
+  display: none;
+}
+
+#view {
+   float:left;
+   margin-bottom: 50px;
+   margin-top: 10px;
+}
+
 
   .logo {
     float:left;
@@ -520,7 +534,9 @@ a:link {
 #line a{
   float:left;
   margin-left: 100px;
+  margin-top: 100px;
   width: 10%;
+  display: none;
 }
 
    #skillsContainer div {
@@ -550,6 +566,7 @@ a:link {
     text-align: justify;
     width: 355px;
   }
+
   #contact {
      height: 105px;
     width: 385px;

@@ -510,7 +510,8 @@ a:link {
 }
 
 #quote {
-  text-align: left;
+  display:none;
+
 }
 
 #download {
@@ -568,8 +569,11 @@ a:link {
   }
 
   #contact {
+    display:none;
      height: 105px;
     width: 385px;
+    margin-top: 400px;
+    float: left;
   }
   #made {
     display:none;

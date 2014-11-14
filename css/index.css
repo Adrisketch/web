@@ -469,13 +469,28 @@ a:link {
 
 }
 
+#welcome {
+  height: 250px;
+}
+
+#welcome h1{
+  font-size: 70px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+ 
+#welcome h2 a{
+  width: 100%;
+  font-size: 40px;
+}
+
 #process {
     float:left;
   }
 
   #textabout {
     text-align: justify;
-    width: 73%;
+    width: 80%;
     display: block;
   }
 

@@ -489,7 +489,7 @@ a:link {
     padding-left: 10px;
   }
 }
-@media screen and (max-width: 524px) {
+@media screen and (max-width: 750px) {
 
 #Welcome h2 a{
   text-align: center;
@@ -523,14 +523,45 @@ a:link {
   width: 10%;
 }
 
-
-  #skillsContainer div {
+   #skillsContainer div {
     display:none;
+    margin-left: 100px;
   }
   #skillsContainer {
     background: url("../images/skillsmin.png"); background-repeat: no-repeat;
     height: 315px;
     width: 315px;
+    margin-left: 50px;
+  }
+
+  #tools {
+    display:none;
+  }
+
+  #circle {
+    display: block;
+    float: left;
+    margin-left:100px;
+    height: 185px;
+    width: 315px;
+    margin-right: 100%;
+  }
+  #textabout {
+    text-align: justify;
+    width: 355px;
+  }
+  #contact {
+     height: 105px;
+    width: 385px;
+  }
+  #made {
+    display:none;
+  }
+  #contacticons {
+    float:left;
+  }
+  #process {
+    display:none;
   }
 }
   

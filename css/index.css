@@ -248,19 +248,6 @@ figure.effect-zoe:hover figcaption > span:nth-child(2) {
   transition-delay: 0.2s;
 }
 
-@media screen and (max-width: 69.5em) {
-
-  .grid figure {
-    width: 30%;
-    margin-left: 0px;
-    display:block;
-  } 
-
-  .grid figure figcaption {
-    font-size: 90%;
-  }
-}
-
 #line {
   width: 30%
 }
@@ -465,80 +452,55 @@ a:link {
   float:center;
 }
 
-@media screen and (max-width: 69.5em) {
-  .logo {
-    margin-left: 10px;
+@media screen and (max-width: 700px) {
+  #container {
+  width: 700px;
   }
 
-  #header li{
-    display:none;
+#circle {
+    display: block;
+    float: center;
+    height: 185px;
   }
-
-  #skills td {
-  display:block;
-   }
-
-  #welcome td {
-    display:block;
-  }
-  #tools td{
-    width: 20%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-
-#Welcome h2 a{
-  text-align: center;
-  font-size: 18px;
-}
-
-#Welcome h1{
-  font-size: 26px;
-}
-
-#Welcome {
-  width: 30%; 
-  height: 195px;
-  margin-bottom: 30px;
-  margin-top: 100px;
-}
-
-#header {
-  margin-top: 10px;
-}
 
 #quote {
   display:none;
+  height: 100%;
 
 }
+
+#process {
+    float:left;
+  }
+
+  #textabout {
+    text-align: justify;
+    width: 73%;
+    display: block;
+  }
 
 #download {
   float:left;
   margin-top: 200px;
   display: none;
 }
-
-#view {
-   float:left;
-   margin-bottom: 50px;
-   margin-top: 10px;
-}
-
-
-  .logo {
-    float:left;
-    margin-left: 140px;
+  #header li{
+    display:none;
   }
 
-#line a{
-  float:left;
-  margin-left: 100px;
-  margin-top: 100px;
-  width: 10%;
-  display: none;
-}
+  .grid figure {
+    width: 100%;
+    margin-left: 0px;
+    display:block;
+  } 
+
+  .grid figure figcaption {
+    font-size: 90%;
+  }
+
+  #tools {
+    display:none;
+  }
 
    #skillsContainer div {
     display:none;
@@ -546,43 +508,13 @@ a:link {
   }
   #skillsContainer {
     background: url("../images/skillsmin.png"); background-repeat: no-repeat;
-    height: 315px;
-    width: 315px;
-    margin-left: 50px;
-  }
-
-  #tools {
-    display:none;
-  }
-
-  #circle {
-    display: block;
-    float: left;
-    margin-left:100px;
-    height: 185px;
-    width: 315px;
-    margin-right: 100%;
-  }
-  #textabout {
-    text-align: justify;
-    width: 355px;
-  }
-
-  #contact {
-    display:none;
-     height: 105px;
-    width: 385px;
-    margin-top: 400px;
-    float: left;
-  }
-  #made {
-    display:none;
-  }
-  #contacticons {
-    float:left;
-  }
-  #process {
-    display:none;
+    height: 350px;
+    width: 700px;
+    margin-left: 30%;
   }
 }
+
+
+
+
   

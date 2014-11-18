@@ -31,6 +31,15 @@ text-decoration: underline;
 
 }
 
+#burguermenu {
+    display:none;
+    background-color: #000000;
+  }
+
+#responsivemenu {
+  display: none;
+ }
+
 /***
  * skills
 **/
@@ -607,6 +616,22 @@ a:link {
     width: 300px;
   }
 
+  #burguermenu {
+    display: block;
+    background-color: #54C1B5;
+    height: 110px;
+    margin-bottom: 50px;
+  }
+
+
+  #burguermenu img {
+    margin: 20px;
+
+  }
+
+ #responsivemenu {
+  display: none;
+ }
 }
 
 

@@ -54,6 +54,8 @@ text-decoration: underline;
   
   display: inline-block;
 }
+
+
 #skillsContainer:after {
   content: '';
   width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
@@ -254,10 +256,6 @@ figure.effect-zoe p {
   transition: opacity 0.35s;
 }
 
-figure.effect-zoe h2 {
-  color: #fff;
-}
-
 
 figure.effect-zoe figcaption > span {
   -webkit-transition: -webkit-transform 0.35s;
@@ -280,10 +278,6 @@ figure.effect-zoe figcaption > span::before {
   content: '\e001';
 }
 
-
-figure.effect-zoe h2 {
-  display: block;
-}
 
 figure.effect-zoe:hover p {
   opacity: 1;
@@ -387,6 +381,10 @@ body {
 #contacticons img:hover {
   padding-left: 30px;
   height: 70px;
+}
+
+.effect-zoe p {
+  color: black;
 }
 
 h3 {

@@ -244,10 +244,10 @@ figure.effect-zoe figcaption > span {
   padding-left: 0.5em;
 }
 
+
 figure.effect-zoe p {
-  position: absolute;
-  bottom: 8em;
-  padding: 2em;
+  text-align: left;
+  padding: 1em;
   color: #fff;
   text-transform: none;
   font-size: 70%;

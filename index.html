@@ -64,9 +64,9 @@
                     <a class="gallery" href="images/thumbs/Niconversor.png"><img src="images/thumbs/Niconversor.png" alt="img14"/></a>
 					<figcaption>
 						<h2>Niconversor App</h2><p>UX UI Design</p>
-						<span class="miniicons"><img src="images/twitterlogomini.png"></span>
+						<!--<span class="miniicons"><img class="facebook" src="images/twitterlogomini.png"></span>
 						<span class="miniicons"><img src="images/facebooklogomini.png"></span>
-						<span class="miniicons"><img src="images/pinterestlogomini.png"></span>
+						<span class="miniicons"><img src="images/pinterestlogomini.png"></span>-->
 					</figcaption>
 					</figure>	
 
@@ -202,11 +202,15 @@
 	</div>
 </div>
   <script>
+ 			$(document).ready(function() {
+
                 $('a.gallery').colorbox({ opacity:0.5 , rel:'group1' });
 
                 $('img.skill-image').bind('mouseenter mouseleave', function() {
     				$(this).attr({src: $(this).attr('data-other-src'), 'data-other-src': $(this).attr('src') });
 				});
+			});
+
         </script>
 </div>
 </div>

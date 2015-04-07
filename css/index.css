@@ -343,11 +343,6 @@ body {
   padding-bottom: 10px;
 }
 
-#contacticons img:hover {
-  padding-left: 30px;
-  height: 70px;
-}
-
 .effect-zoe p {
   color: black;
 }
@@ -462,6 +457,7 @@ a:link {
 }
  
 #contact {
+  padding: 0.7em;
   background-color: #d2d2d2;
   list-style: none;
   width: 100%;

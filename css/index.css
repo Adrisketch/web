@@ -153,41 +153,6 @@ vertical-align: bottom;
   font-size: 68.5%;
 }
 
-
-#Group1 {
-  background: url("../images/Group1.png"); background-repeat: no-repeat;
-}
-
-#Group1:hover {
-  background: url("../images/Group1b.png"); background-repeat: no-repeat;
-}
-
-#Group2 {
-  background: url("../images/Group2.png"); background-repeat: no-repeat;
-}
-
-#Group2:hover {
-  background: url("../images/Group2b.png"); background-repeat: no-repeat;
-
-}
-
-#Group3 {
-  background: url("../images/Group3.png"); background-repeat: no-repeat;
-}
-
-#Group3:hover {
-  background: url("../images/Group3b.png"); background-repeat: no-repeat;
-
-}
-
-#Group4 {
-  background: url("../images/Group4.png"); background-repeat: no-repeat;
-}
-
-#Group4:hover {
-  background: url("../images/Group4b.png"); background-repeat: no-repeat;
-}
-
 #skills {
   border: 1px solid black;
   width:100%;

@@ -330,6 +330,7 @@ body {
   font-weight: lighter;
   color: #B8BDBC;
   width: 82%;
+  line-height: 1.5
 }
 
 #view {
@@ -408,6 +409,7 @@ a:link {
   font-weight: lighter;
   color: #B8BDBC;
   width: 82%;
+  line-height: 1.6;
 
 }
 
